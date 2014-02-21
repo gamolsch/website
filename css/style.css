@@ -1,6 +1,6 @@
 body {
 	font-family: 'monaco', sans-serif;
-	color: #faf3bc;
+	color: #000000;
 	background: #420600 url('img/stardust.png') repeat;
 }
 
@@ -103,7 +103,7 @@ ul.nav li.last {
 }
 
 ul.nav li.last:hover {
-		background-color: #c62718;
+	background-color: #c62718;
 }
 
 ul.nav li a {

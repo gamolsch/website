@@ -117,7 +117,7 @@ ul.nav li a {
 }
 
 #new-cupcakes img {
-	border: 8px solid #faf3bc;
+	border: 8px solid #000000;
 	margin: 0 20px 20px 0;
 	width: 40%;
 	display: inline;
@@ -128,7 +128,7 @@ ul.nav li a {
 }
 
 #featured-cupcake img {
-	border: 8px solid #faf3bc;
+	border: 8px solid #000000;
 	width: 95%;
 }
 
@@ -148,11 +148,13 @@ ul.nav li a {
 	width: 100%;
 }
 
-.grid_3 img {
+#flag img {
+	border: 8px solid #000000;
 	width: 150%;
 }
 
-.grid_4 img {
+#golf img {
+	border: 8px solid #000000;
 	width: 100%;
-	padding: 50px 0px 0px 0px;
+	margin: 50px 0px 0px 0px;
 }

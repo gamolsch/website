@@ -1,5 +1,5 @@
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'monaco', sans-serif;
 	color: #faf3bc;
 	background: #420600 url('img/stardust.png') repeat;
 }
@@ -10,7 +10,7 @@ a {
 }
 
 h1 {
-	font-size: 1.750em;
+	font-size: 1.650em;
 	font-weight: 100;
 	letter-spacing: -1.5px;
 }

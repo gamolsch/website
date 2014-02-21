@@ -29,7 +29,7 @@ h3 {
 
 .btn {
 	padding: 15px 30px;
-	margin: 40px 0;
+	margin: 40px 0px;
 	color: #faf3bc;
 	background: #4fb69f url('img/grey_wash_wall.png') repeat;
 	border-radius: 25px;
@@ -38,8 +38,8 @@ h3 {
 	text-transform: uppercase;
 }
 
-btn:hover {
-	background-color: #4cc4a7;
+.btn:hover {
+	background: #000000;
 }
 
 
@@ -57,18 +57,18 @@ btn:hover {
 
 .btn-small:hover {
 	
-	background-color: #c62718;
+	background-color: #000000;
 }
 
 .submit-btn {
 	padding: 10px 25px;
 	margin: 20px 0 50px 0;
 	color: #faf3bc;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'monaco', sans-serif;
 	border: 0;
 	font-weight: 100;
 	font-size: .75em;
-	background: #b22316 url('texture.png') no-repeat right top;;
+	background: #b22316 url('texture.png') no-repeat right top;
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
@@ -91,7 +91,7 @@ ul.nav li.last {
 	margin: 0;
 	padding: 10px 25px;
 	color: #faf3bc;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'monaco', sans-serif;
 	border: 0;
 	font-weight: 100;
 	font-size: .75em;

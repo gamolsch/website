@@ -9,6 +9,10 @@ a {
 	text-decoration: none;
 }
 
+img {
+	max-width: 100%;
+}
+
 h1 {
 	font-size: 1.750em;
 	letter-spacing: -1.5px;

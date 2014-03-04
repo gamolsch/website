@@ -36,32 +36,81 @@ h2 {
 	background-color: #4CC4A7;
 }
 
-ul.nav {
-	margin: 120px 0 0 0;
+.btn-small {
+	padding: 10px 25px;
+	color: #faf3bc;
+	font-size: .75em;
+	background: #b22316 url('texture.png') no-repeat right bottom;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	text-transform: uppercase;
+}
+
+.btn-small:hover {
+	background-color: #c62718;
+}
+
+#nav ul {
+	width: 100%;
+	margin: 20% 0 0 0;
 	list-style: none;
 	float: right;
 }
 
-ul.nav li {
+#nav ul li {
 	float: left;
-	margin-right: 40px;
 }
 
-ul.nav li a {
+#nav ul li.about {
+		width: 15%;
+	}
+	#nav ul li.pricing {
+		width: 35%;
+	}
+	#nav ul li.locations {
+		width: 15%;
+	}
+
+#nav ul li.contact {
+	width: 25%;
+		margin: 0 5% 0 5%;
+		padding: 8px 0;
+		color: #faf3bc;
+		font-family: 'Nunito', sans-serif;
+		text-align: center;
+		border: 0;
+		font-weight: 100;
+		font-size: .75em;
+		background: #b22316 url('texture.png') no-repeat right top;;
+		border-radius: 25px;
+		-webkit-border-radius: 25px;
+		-moz-border-radius: 25px;
+		text-transform: uppercase;
+}
+
+#nav ul li.contact:hover {
+	background-color: #c62718;
+}
+
+#nav ul li a {
 	color: #FAF3BC;
 }
 
 #intro {
-	margin: 50px 0 75px 0;
+	margin: 0 0 5% 0;
 }
 
 #new-cupcakes img {
+	box-sizing: border-box;
 	border: 8px solid #FAF3BC;
-	margin: 0 0 20px 0;
+	margin: 0 0 5% 0;
 }
 
 #featured-cupcake img {
+	box-sizing: border-box;
 	border: 8px solid #FAF3BC;
+	margin: 0 0 5% 0;
 }
 
 #copyright {
@@ -71,6 +120,129 @@ ul.nav li a {
 	text-align: center;
 }
 
+/* media queries */
 
+/* Ipad */
+@media screen and (max-width: 1024px) {
+	
+	.grid_4,
+	.grid_8
+	 {
+		width: 100%;
+	}
 
+	#smells img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
+	#nav ul {
+		width: 100%;
+		margin: 0px;
+	}
+
+	#nav ul li {
+		margin: 5% 0;
+	}
+
+	#nav ul li.about {
+		width: 15%;
+	}
+
+	#nav ul li.pricing {
+		width: 35%;
+	}
+
+	#nav ul li.locations {
+		width: 25%;
+	}
+
+	#nav ul li.contact {
+		width: 25%;
+		margin: 5% 0 2% 0;
+	}
+
+	#intro {
+		width: 100%;
+	}
+
+	#intro h1 {
+	margin:  0 0 5% 0;
+}
+
+	#intro-img {
+		display: none;
+	}
+
+}
+
+/* iPhone ------ */
+@media screen and (max-width: 480px) {
+
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width: 100%;
+	}
+
+	#smells img {
+		max-width: 100%;
+	}
+
+	#nav ul {
+		margin: 5% 0;
+	}
+
+	#nav ul li a {
+	-webkit-user-select: none;
+	font-size: 0.750em;
+	}
+
+	#nav ul li {
+		float: left;
+		margin: 5% 0;
+	}
+
+	#nav ul li.about {
+		width: 20%;
+		text-align: left;
+	}
+
+	#nav ul li.pricing {
+		width: 55%;
+		text-align: center;
+	}
+
+	#nav ul li.locations {
+		width: 25%;
+		text-align: right;
+	}
+
+	#nav ul li.contact {
+		width: 100%;
+		margin: 0;
+		font-size: 1em;
+	}
+
+	#intro, #about {
+		display: none;
+	}
+
+	#featured-cupcake, #new-cupcakes {
+		margin: 5% 0;
+	}
+
+	#intro-img img {
+		display: none;
+	}
+}

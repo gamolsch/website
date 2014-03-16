@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html"; charset=utf-8"/>
+	<title>Ruby Cheat Sheet</title>
+	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet " href="css/cheat.css " type="text/css " media="screen ">
+</head>
+<body>
+	<div id="header">
+		<h1 class="title">Ruby Arrays and Hashes Cheat Sheet</h1>
+		<div id="links">
+			<ul id="menu">
+				<li><a href="#arrays">Array</a></li>
+				<li><a href="#hashes">Hashes</a></li>
+				<li>Commonly Used Enumerables</li>
+			</ul>
+		</div>
+			<div id="center">
+				<h1 class="titles"><a name="arrays">Arrays</a></h1>
+				<h2 class="group">Initializing Arrays:</h2>
+				<pre class="info">name1 = Array.new => []</pre>
+				<pre class="info">name2 = [] => []</pre>
+				<pre class="info">nums1 = Array.[](1, 2, 3, 4, 5) => [1, 2, 3, 4, 5]</pre>
+				<pre class="info">nums2 = Array[1, 2, 3, 4, 5] => [1, 2, 3, 4, 5]</pre>
+				<pre class="info">digits = Array(0..9) => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]</pre>
+				<pre class="info">names1 = Array.new(3, "George") => ["George", "George", "George"]</pre>
+				<pre class="info">names2 = ["George", "Stacie"] => ["George", "Stacie"]</pre>
+				<h2 class="group">Accessing Arrays:</h2>
+				<pre class="info">names2[0] => ["George"]</pre>
+				<pre class="info">names2[-1] => ["Stacie"]</pre>
+				<pre class="info">names2.first => ["George"]</pre>
+				<pre class="info">names2.last => ["Stacie"]</pre>
+
+
+				<h1 class="titles"><a name="hashes">Hashes</a></h1>
+				<h2 class="group">Initializing Hashes:</h2>
+				<pre class="info">name = Hash.new</pre>
+				<pre class="info">name = Hash.new("George")</pre>
+				<pre class="info">name = Hash.new "George"</pre>
+				<pre class="info">month = {1 => "January"}</pre>
+			</div>
+	<div id="footer ">
+	</div>
+</div>
+	</body>
+	</html>

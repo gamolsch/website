@@ -1,0 +1,56 @@
+body {
+	width: 100%;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #FFFFFF;
+}
+
+
+
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+#header {
+	width: 100%;
+}
+
+.title {
+	text-align: center;
+	color: #000000;
+}
+
+#menu {
+	float: right;
+	width: 100%;
+	background-image: url('img/stardust.png');
+	height: 40px;
+}
+
+#menu li {
+	float: left;
+	margin-top: 1%;
+	margin-right: 5%;
+	margin-left: 19%;
+	color: #FFFFFF;
+	list-style: none;
+}
+
+#center {
+	display: block;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}	
+
+.info {
+	border: solid 1px #000000;
+	background-color: #FFFF99;
+}

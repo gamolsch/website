@@ -4,6 +4,15 @@ body {
 	max-height: 1500px;
 }
 
+a:link {
+	color: #F1F13F;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #F1F13F;
+}
+
 #title {
 	color: #F1F13F;
 	width: 100%;
@@ -16,4 +25,9 @@ body {
 	text-shadow: 5px 5px #000000;
 	box-shadow: 10px 15px #000000;
 	display: none;
+}
+
+.enter {
+	color: #F1F13F;
+	text-align: center;
 }

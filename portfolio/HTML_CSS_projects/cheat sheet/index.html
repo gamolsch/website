@@ -5,40 +5,52 @@
 	<title>Ruby Cheat Sheet</title>
 	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet " href="css/cheat.css " type="text/css " media="screen ">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
 </head>
 <body>
 	<div id="header">
 		<h1 class="title">Ruby Arrays and Hashes Cheat Sheet</h1>
 		<div id="links">
 			<ul id="menu">
-				<li><a href="#arrays">Array</a></li>
-				<li><a href="#hashes">Hashes</a></li>
+				<li id="arrays"><a href="#arrays">Array</a></li>
+				<li id="hashes"><a href="#hashes">Hashes</a></li>
 				<li>Commonly Used Enumerables</li>
 			</ul>
 		</div>
 			<div id="center">
-				<h1 class="titles"><a name="arrays">Arrays</a></h1>
-				<h2 class="group">Initializing Arrays:</h2>
-				<pre class="info">name1 = Array.new => []</pre>
-				<pre class="info">name2 = [] => []</pre>
-				<pre class="info">nums1 = Array.[](1, 2, 3, 4, 5) => [1, 2, 3, 4, 5]</pre>
-				<pre class="info">nums2 = Array[1, 2, 3, 4, 5] => [1, 2, 3, 4, 5]</pre>
-				<pre class="info">digits = Array(0..9) => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]</pre>
-				<pre class="info">names1 = Array.new(3, "George") => ["George", "George", "George"]</pre>
-				<pre class="info">names2 = ["George", "Stacie"] => ["George", "Stacie"]</pre>
-				<h2 class="group">Accessing Arrays:</h2>
-				<pre class="info">names2[0] => ["George"]</pre>
-				<pre class="info">names2[-1] => ["Stacie"]</pre>
-				<pre class="info">names2.first => ["George"]</pre>
-				<pre class="info">names2.last => ["Stacie"]</pre>
+				<h1 class="array"><a href="#" a name="arrays">Arrays</a></h1>
+				<h2 class="group1">Initializing Arrays:</h2>
+				<pre class="info1">name1 = Array.new <span class="output">=> []</span><button class="btn">Click for Output</button></pre>
+				<pre class="info2">name2 = [] <span class="output2">=> []</span><button class="btn2">Click for Output</button></pre>
+				<pre class="info3">nums1 = Array.[](1, 2, 3, 4, 5) <span class="output3">=> [1, 2, 3, 4, 5]</span><button class="btn3">Click for Output</button></pre>
+				<pre class="info4">nums2 = Array[1, 2, 3, 4, 5] <span class="output4">=> [1, 2, 3, 4, 5]</span><button class="btn4">Click for Output</button></pre>
+				<pre class="info5">digits = Array(0..9) <span class="output5">=> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]</span><button class="btn5">Click for Output</button></pre>
+				<pre class="info6">names1 = Array.new(3, "George") <span class="output6">=> ["George", "George", "George"]</span><button class="btn6">Click for Output</button></pre>
+				<pre class="info7">names2 = ["George", "Stacie"] <span class="output7">=> ["George", "Stacie"]</span><button class="btn7">Click for Output</button></pre>
+
+				<h2 class="group1">Accessing Arrays:</h2>
+				<pre class="info8">names2[0] <span class="output8">=> ["George"]</span><button class="btn8">Click for Output</button></pre>
+				<pre class="info9">names2[-1] <span class="output9">=> ["Stacie"]</span><button class="btn9">Click for Output</button></pre>
+				<pre class="info10">names2.first <span class="output10">=> ["George"]</span><button class="btn10">Click for Output</button></pre>
+				<pre class="info11">names2.last <span class="output11">=> ["Stacie"]</span><button class="btn11">Click for Output</button></pre>
 
 
-				<h1 class="titles"><a name="hashes">Hashes</a></h1>
-				<h2 class="group">Initializing Hashes:</h2>
-				<pre class="info">name = Hash.new</pre>
-				<pre class="info">name = Hash.new("George")</pre>
-				<pre class="info">name = Hash.new "George"</pre>
-				<pre class="info">month = {1 => "January"}</pre>
+				<h1 class="hash"><a href="#" a name="hashes">Hashes</a></h1>
+				<h2 class="group2">Initializing Hashes:</h2>
+				<pre class="info12">name = Hash.new</pre>
+				<pre class="info13">name = Hash.new("George")</pre>
+				<pre class="info14">name = Hash.new "George"</pre>
+				<pre class="info15">name["George"] = ["Male"]</pre>
+				<pre class="info16">name2 = {Stacie: "Female"}</pre>
+				<pre class="info17">month = {1 => "January"}</pre>
+
+				<h2 class="group2">Accessing Hashes:</h2>
+				<pre class="info18">name.keys <span class="output12">=> George</span><button class="btn12">Click for Output</button></pre>
+				<pre class="info19">name.values <span class="output13">=> Male</span><button class="btn13">Click for Output</button></pre>
+				<pre class="info20">name2 <span class="output14">=> {:Stacie => "Female"}</span><button class="btn14">Click for Output</button></pre>
+				<pre class="info21">name2[Stacie:] <span class="output15">=> Female</span><button class="btn15">Click for Output</button></pre>
+				<pre class="info22">month[1] <span class="output16">=> January</span><button class="btn16">Click for Output</button></pre>
 			</div>
 	<div id="footer ">
 	</div>

@@ -7,7 +7,7 @@ document.getElementsByTagName('body')[0].style.backgroundColor = "#FF5600";
 document.getElementsByTagName('body')[0].style.margin = "0px";
 document.getElementsByTagName('body')[0].style.width = "100%";
 document.getElementsByTagName('body')[0].style.height = "1000px";
-document.getElementsByTagName('body')[0].style.color = "#330066";
+document.getElementsByTagName('body')[0].style.color = "#560EAD";
 
 
 /* Header */
@@ -34,12 +34,12 @@ document.querySelector("ul").style.border = "double 5px #000000"
 
 document.querySelector("li.first").style.float = "left";
 document.querySelector("li.second").style.float = "left";
-document.querySelector("li.third").style.float = "left";
+//document.querySelector("li.third").style.float = "left";
 document.querySelector("li.last").style.float = "left";
-document.querySelector("li.first").style.marginLeft = "3%";
-document.querySelector("li.first").style.marginRight = "20%";
-document.querySelector("li.second").style.marginRight = "20%";
-document.querySelector("li.third").style.marginRight = "20%";
+document.querySelector("li.first").style.marginLeft = "10%";
+document.querySelector("li.first").style.marginRight = "30%";
+document.querySelector("li.second").style.marginRight = "30%";
+//document.querySelector("li.third").style.marginRight = "20%";
 //document.querySelector("li.last").style.marginRight = "25%";
 
 
@@ -81,11 +81,11 @@ document.getElementById("right").style.height = "80%"
 /* Footer */
 
 document.getElementById("footer").style.clear = "both";
-document.getElementById("footer").style.backgroundImage = "url('bg-texture.jpg')";
+//document.getElementById("footer").style.backgroundImage = "url('bg-texture.jpg')";
 document.getElementById("footer").style.width = "100%";
-document.getElementById("footer").style.clear = "both";
 document.getElementById("footer").style.textAlign = "center";
 document.getElementById("footer").style.height = "5%";
+document.getElementById("footer").style.float = "left";
 
 //Countdown -------------------------------------//
 
